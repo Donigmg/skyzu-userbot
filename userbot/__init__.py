@@ -368,7 +368,7 @@ with bot:
 async def check_alive():
     await bot.send_message(
         BOTLOG_CHATID,
-        "**Userbot Has Been Deployed⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** `skyzu-Userbot`\n❃ **BotVer :** `8.0.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @skyzusupport\n━━━━━━━━━━━━━━━")
+        "**Userbot Has Been Deployed⚡**\n━━━━━━━━━━━━━━━\n❃ **Branch :** Paul-Userbot`\n❃ **BotVer :** `8.0.0`\n━━━━━━━━━━━━━━━\n❃ **Support :** @revengenih\n━━━━━━━━━━━━━━━")
     return
 
 
@@ -567,10 +567,10 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"❁ __Saya Adalah Skyzu Userbot Yang Digunakan Banyak User Telegram__.\n\n"
+                    f"❁ __Saya Adalah Paul Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 180 Modules__.\n\n"
-                    f"© @skyzusupport")
+                    f"© @revengenih")
                 await event.edit(
                     text,
                     file=roselogo,
@@ -823,7 +823,7 @@ with bot:
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
                     f"✥ **Sisa Dyno Heroku** `{day}` **Hari Lagi**"
-                    f"© @skyzusupport"
+                    f"© @revengenih"
                 )
                 await event.edit(
                     text,
@@ -844,7 +844,7 @@ with bot:
         )
         async def killdabot(event):
             if event.query.user_id == uid:
-                text = f"**Restaring skyzu-userbot**..."
+                text = f"**Restaring Paul-userbot**..."
                 await event.edit(
                     text,
                     file=roselogo,
@@ -888,18 +888,18 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari **⚡𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**",
+                    "Bantuan Dari **⚡PAUL-USERBOT⚡**",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True,
                 )
             else:
-                result = builder.article(" **⚡𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**",
-                                         text="""°𝐒𝐊𝐘𝐙𝐔-𝐔𝐒𝐄𝐑𝐁𝐎𝐓°""",
+                result = builder.article(" **⚡PAUL-USERBOT⚡**",
+                                         text="""°PAUL-USERBOT°""",
                                          buttons=[[custom.Button.url("sᴋʏᴢᴜ​",
-                                                                     "https://github.com/Skyzu/skyzu-userbot"),
+                                                                     "https://github.com/Donigmg/skyzu-userbot"),
                                                    custom.Button.url("ᴄʜᴀɴɴᴇʟ​",
-                                                                     "t.me/ProjectSkyzu"),
+                                                                     "t.me/revengenih"),
                                                    ],
                                                   [custom.Button.url("ʟɪᴄᴇɴsᴇ​",
                                                                      "https://github.com/Skyzu/skyzu-userbot/LICENSE",
