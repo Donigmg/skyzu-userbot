@@ -66,7 +66,7 @@ async def gucast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        await event.edit("**Berikan Sebuah Pesan atau Reply**")
+        await event.edit("**gcast mulu ka semoga kena limit hehe**")
         return
     kk = await event.edit("`Globally Broadcasting Msg...`")
     er = 0
